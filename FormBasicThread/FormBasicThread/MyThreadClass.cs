@@ -25,7 +25,7 @@ namespace FormBasicThread
             {
                 Thread thread = Thread.CurrentThread;
                 Console.WriteLine("Name of Thread: " + thread.Name + " = " + LoopCount);
-                Thread.Sleep(2000);
+                Thread.Sleep(1500);
              
             }
         }
